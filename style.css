@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --tt-primary: #ffffff;
+  --tt-secondary: #c0c0c0;
+  --bt-blue: #167bf7;
+  --bg-color: #00030c;
+
+  --font-primary: "Inter", serif;
+}
+
+body {
+  font-family: var(--font-primary);
+  font-size: 1.6rem;
+  color: var(--tt-primary);
+  background-color: var(--bg-color);
+}
+
+h2 {
+  font-size: 4.8rem;
+}
+
+div p {
+  letter-spacing: 0.15rem;
+  color: var(--tt-secondary);
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  gap: 4rem;
+  padding: 5%;
+}
+
+.primary {
+  height: 100vh;
+  text-align: center;
+  background: url(./assets/images/alura_plus_img.png) top/contain no-repeat;
+  /* background-shorthand: color image position/size repeat attachment origin clip */
+}
+
+.primary h1 {
+  font-size: 3.2rem;
+  margin-bottom: 2.4rem;
+}
+
+.primary img {
+  width: 65%;
+  margin-bottom: 5.6rem;
+}
+
+.primary a,
+.tertiary a {
+  display: block;
+  margin-bottom: 1.6rem;
+  padding: 1.6rem;
+  border: none;
+  border-radius: 0.8rem;
+  text-decoration: none;
+  color: var(--tt-primary);
+  background-color: var(--bt-blue);
+  transition: 0.2s ease;
+}
+
+.primary a:nth-child(4) {
+  border: 1px solid var(--tt-primary);
+  background-color: transparent;
+}
+
+.primary a:hover,
+.tertiary a:hover {
+  filter: brightness(0.75);
+}
+
+.primary p {
+  font-size: 1.2rem;
+}
+
+.secondary img,
+.tertiary img,
+.quaternary img {
+  width: 80%;
+}
+
+.tertiary a {
+  margin-top: 1.6rem;
+  width: max-content;
+}
+
+.devices {
+  margin-bottom: 12rem;
+  text-align: center;
+}
+
+.devices ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 1.6rem 5%;
+}
+
+.devices li {
+  width: 30%;
+}
+
+.devices img {
+  width: 100%;
+}
+
+.devices p {
+  font-size: 3.2rem;
+}
+
+footer {
+  padding-bottom: 8rem;
+  text-align: center;
+}
+
+footer img {
+  width: 5%;
+  margin-bottom: 4rem;
+}
+
+footer ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+  list-style: none;
+  margin-bottom: 2.4rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--tt-primary);
+  transition: 0.2s ease;
+}
+
+footer a:hover {
+  color: var(--bt-blue);
+}
+
+footer p {
+  font-size: 1.4rem;
+  letter-spacing: 0.15rem;
+  margin-bottom: 1.6rem;
+}
