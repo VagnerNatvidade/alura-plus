@@ -25,6 +25,7 @@ body {
 }
 
 h2 {
+  margin-bottom: 1.6rem;
   font-size: 4.8rem;
 }
 
@@ -35,7 +36,7 @@ div p {
 
 .container {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
   gap: 4rem;
   padding: 5%;
@@ -77,7 +78,7 @@ section:not(:first-child) {
 }
 
 .primary a:nth-child(4) {
-  border: 1px solid var(--tt-primary);
+  border: 0.1rem solid var(--tt-primary);
   background-color: transparent;
 }
 
@@ -158,4 +159,32 @@ footer p {
   font-size: 1.4rem;
   letter-spacing: 0.15rem;
   margin-bottom: 1.6rem;
+}
+
+@media (max-width: 1280px) {
+  .primary {
+    height: initial;
+    background: url(./assets/images/alura_plus_img.png) top left no-repeat;
+  }
+}
+
+@media (max-width: 820px) {
+  .devices ul {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .devices li {
+    width: 60%;
+  }
+
+  footer ul {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 640px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
 }
