@@ -1,4 +1,4 @@
-![capa do readme do projeto alura plus](https://i.ibb.co/XZJqjmCV/nativ.jpg)
+![capa do readme do projeto alura plus](./assets/capa_readme.png)
 
 <h1 style="text-align: center">Alura +</h1>
 <p style="text-align: center">Acesse ao Alura plus e tenha acesso a plataforma e ao alura língua.</p>
