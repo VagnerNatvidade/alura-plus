@@ -41,6 +41,11 @@ div p {
   padding: 5%;
 }
 
+section,
+section:not(:first-child) {
+  margin-top: 4rem;
+}
+
 .primary {
   height: 100vh;
   text-align: center;
@@ -121,12 +126,12 @@ div p {
 }
 
 footer {
-  padding-bottom: 8rem;
+  padding: 0 5% 8rem;
   text-align: center;
 }
 
 footer img {
-  width: 5%;
+  width: 10rem;
   margin-bottom: 4rem;
 }
 
